@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+a {text-decoration: none;}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:14;
+  background: white;
+}
+
+
+
+
+/* шапка сайта */
+
+
+
+
+header .all-header {
+ padding: 0px;
+ text-align: center;
+ color: white;
+ font-size: 30px;
+ width: 90%;
+ padding-left: 5%;
+ padding-right: 5%;
+ float: left;
+ background-color: #403d3d;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ border-bottom: 3px solid #5f5f5f;
+}
+
+header .header-text{
+  float:left;
+  margin: 15px;
+  margin-right: 250px;
+  color: #e66370;
+  font-weight: 500;
+}
+
+header .tabs{
+  float:left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+header .tabs:hover{
+  color: #dedede;
+  cursor: pointer;
+}
+
+header .search{
+  width: 200px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 4px;
+  text-indent: 20px;
+  margin: 15px;
+  margin-left: 150px;
+  outline: none;
+}
+
+
+
+
+   /* основная часть сайта */
+
+
+
+
+main{
+height:700px
+}
+
+main .News-section{
+  border: solid 1px;
+  height: 400px;
+  width: 600px;
+  float:left;
+  padding: 40px;
+  margin: 50px;
+  margin-left: 150px;
+  background: #f7f7f7;
+
+}
+
+main .News-section h3{
+  color: #e66370;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+main .News-section p{
+  color: #999999;
+}
+
+main .News-section img{
+  width: 400px;
+  height: 250px;
+  margin: 20px;
+  margin-left: 70px;
+}
+
+main .notifications{
+  border: solid 1px;
+  height: 150px;
+  width: 300px;
+  float: left;
+  padding-left: 15px;
+  margin: 50px;
+  padding: 25px;
+  background: #f7f7f7;
+}
+
+main .notifications h4{
+  color: #e66370;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+
+main .notifications p {
+  color: #999999;
+}
+
+
+
+
+     /* футер сайта */
+
+
+
+
+
+
+footer .all-footer{
+  padding: 0px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+  background-color: #403d3d;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  border-top: 3px solid #5f5f5f;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 130px; /* replace with actual footer height */
+}
+
+
+footer .icons{
+  color: white;
+  float:left;
+  margin: 25px;
+  font-size: 20px;
+}
+
+
+#YouTube{
+border: solid #e66370 4px;
+border-radius: 4px;
+background-color: #e66370;
+float:left;
+margin-left: 400px;
+font-size: 20px;
+}
+
+#Twitter{
+border: solid #81d5de 4px;
+border-radius: 4px;
+background: #81d5de;
+float:left;
+margin-left: 50px;
+}
+
+#FaceBook {
+  border: solid #3672eb 4px;
+  border-radius: 4px;
+  background: #3672eb;
+  float:left;
+  margin-left: 50px;
+}
+
+#Instagram{
+  border: solid #ba8c47 4px;
+  border-radius: 4px;
+  background: #ba8c47;
+  float:left;
+  margin-left: 50px;
+}
+
+footer .copyright{
+    position: absolute;
+    no-repeat: scroll 13px 0px;
+    Float: left;
+  font-size: 15px;
+  margin-right: 300px;
+}
